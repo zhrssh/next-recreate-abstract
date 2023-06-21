@@ -11,7 +11,7 @@ export default function NavigationItem({imagePath, title, description } : Naviga
             <div className="flex flex-col items-start">
                 <h3 className="font-bold mb-2">{title}</h3>
                 <p className="mb-2">{description}</p>
-                <button type="button" className="text-indigo-400">Learn More →</button>
+                <button type="button" className="text-indigo-400 hover:text-indigo-600" onClick={() => alert(`You've pressed ${title}`)}>Learn More →</button>
             </div>
         </div>
     )

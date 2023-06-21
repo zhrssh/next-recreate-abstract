@@ -2,7 +2,8 @@ export default function HeaderBar() {
     return (
         <>
             <header className="flex justify-between items-center bg-black text-slate-100 px-16 py-4">
-                <div className="font-serif font-bold text-xl">
+                <div className="flex gap-2 items-center font-serif font-bold text-xl">
+                    <img src="images/face-solid-240.png" className="bg-slate-50 rounded-md w-6 h-6" />
                     Lumina | Help Center
                 </div>
                 <div className="flex flex-row gap-2">
